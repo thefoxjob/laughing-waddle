@@ -1,0 +1,35 @@
+@import '~bootstrap/scss/bootstrap.scss';
+@import '~loaders.css/src/loaders.scss';
+@import './variables.scss';
+@import './components/Weather.scss';
+@import './pages/Index.scss';
+
+
+html {
+    font-size: 14px;
+}
+
+body {
+    background: #ffffff;
+}
+
+html, body, #main, .page {
+    height: 100%;
+}
+
+.container, .container-fluid {
+    &.no-gutters {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.row.narrow-gutters {
+    margin-left: - $grid-gutter-width / 4;
+    margin-right: - $grid-gutter-width / 4;
+
+    > [class^="col"], > [class*=" col-"] {
+        padding-left: $grid-gutter-width / 4;
+        padding-right: $grid-gutter-width / 4;
+    }
+}

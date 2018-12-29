@@ -1,0 +1,61 @@
+.component.weather {
+    .table {
+        tbody {
+            tr {
+                td {
+                    vertical-align: middle;
+                }
+            }
+        }
+
+        .date-column {
+            max-width: 250px;
+        }
+    }
+
+    .date {
+        .day {
+            font-size: 2rem;
+            font-weight: 500;
+            margin-right: 0.5rem;
+            width: 2.5rem;
+            display: inline-block;
+        }
+
+        .month, .year {
+            font-size: 0.825rem;
+            font-weight: 200;
+            margin-right: 0.25rem;
+        }
+    }
+
+    .icon {
+        .fas, .far {
+            font-size: 2rem;
+            color: #aaaaaa;
+            margin: 0 1rem;
+        }
+    }
+
+    .summary {
+        font-size: 0.825rem;
+        font-weight: 100;
+        letter-spacing: 0.1px;
+    }
+
+    .temperature {
+        font-weight: 100;
+
+        .high {
+            font-size: 1.5rem;
+        }
+
+        .low {
+            font-size: 1rem;
+        }
+
+        .seperator {
+            margin: 0 0.25rem;
+        }
+    }
+}

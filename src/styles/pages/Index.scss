@@ -1,0 +1,18 @@
+.page.index {
+    .container {
+        &, > .search, > .search > .row {
+            height: 100%;
+        }
+
+        > .search > .row {
+            align-items: center;
+        }
+
+        &.loaded {
+            > .search {
+                margin: 1rem 0;
+                height: auto;
+            }
+        }
+    }
+}
