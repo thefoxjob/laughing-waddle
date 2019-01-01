@@ -1,3 +1,8 @@
+** Prerequisite
+
+- Node 8 or above
+- Yarn or NPM
+
 ** Setup
 
 ```
@@ -8,6 +13,7 @@ yarn install
 
 ```
 yarn start
+open http://localhost:8080
 ```
 
 ** Test

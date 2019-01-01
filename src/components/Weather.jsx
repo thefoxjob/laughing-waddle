@@ -1,8 +1,8 @@
 import Loader from 'react-loaders';
 import PropTypes from 'prop-types';
 import React from 'react';
-import deepcopy from 'deepcopy';
 import moment from 'moment';
+import { cloneDeep as deepcopy } from 'lodash';
 
 import { Status, TemperatureUnit, Weather as WeatherMapper } from '../constants';
 import api from '../utils/api';
